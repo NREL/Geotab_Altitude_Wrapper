@@ -9,7 +9,7 @@ Functions to pull data from Geotab's Altitude API and analyze it.
     - polars, numpy, pickle, json, glob, time, datetime, ratelimit
     - `pip install mygeotab`
     - If you need to create and upload custom Geotab regions: geopandas, shapely, geojson
-    - **You may need to install python-certifi-win32 or a similar package to run queries on the API while connected to the NREL VPN.**
+    - **You may need to install python-certifi-win32 or a similar package to run queries on the API while connected a VPN.**
     
 # Running queries
 To get started, try running one of the example Jupyter notebooks:
