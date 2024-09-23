@@ -1,4 +1,4 @@
-# Geotab Altitude Utilities
+# Geotab Altitude Wrapper Utilities
 Functions to pull data from Geotab's Altitude API and analyze it. 
 
 # Setup
