@@ -15,7 +15,6 @@ Functions to pull data from Geotab's Altitude API and analyze it.
 To get started, try running one of the example Jupyter notebooks:
 - `api_query_examples/regional_domicile_examples.ipynb`: outputs a set of parquet files combining Regional Domicile results across multiple queries
 - `api_query_examples/stop_analytics_examples.ipynb`: outputs a set of parquet files for Stop Analytics across multiple queries
-- `api_query_examples/sandia_data_pulls.ipynb` has an example O-D matrix query
 - `api_query_examples/other_query_examples.ipynb`: outputs a polars DataFrame for each query output
 
 # Query output
