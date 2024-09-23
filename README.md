@@ -24,3 +24,6 @@ Results across queries from the Regional Domicile and Stop Analytics APIs are co
 - `all_metadata_new.parquet`: Parameters (filters used, etc.) for each API query.
 - `all_subzone_definitions_new.parquet`: Descriptions of each subzone. Subzones are origin-destination pair for O-D analyses, or geographic zones for Stop Analytics or Regional Domicile results; they may also be specific to a time slice (e.g., day of week). Shape definitions (stored as strings) for each subzone for each query. For Stop Analytics or Regional Domicile results, `ZoneId` links this table to `subzone_definitions`. For O-D analyses, `ZoneId` links to `Origin_ZoneId` or `Destination_ZoneId` in `subzone_definitions`.
 - `all_results_new.parquet`: Results from all queries. This can be joined to `metadata` on `Query_ID`, or can be joined to `subzone_info` table on `Query_ID`+`Subzone`.
+
+# Software record
+This repo is associated with NREL Software Record SWR-24-77.
