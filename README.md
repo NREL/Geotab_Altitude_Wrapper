@@ -18,7 +18,7 @@ To get started, try running one of the example Jupyter notebooks:
 - `api_query_examples/other_query_examples.ipynb`: outputs a polars DataFrame for each query output
 
 # Query output
-![diagram](https://media.github.nrel.gov/user/2239/files/83cbbe98-7957-48fc-979f-508a7cec042b)
+![diagram](docs/Geotab_Result_Diagram.png)
 
 Results across queries from the Regional Domicile and Stop Analytics APIs are combined into a single set of .parquet files. Each parquet file can be read into a polars DataFrame with `pl.read_parquet(filename)`:
 - `all_metadata_new.parquet`: Parameters (filters used, etc.) for each API query.
