@@ -1,5 +1,5 @@
 # Geotab Altitude Wrapper Utilities
-Functions to pull data from Geotab's Altitude API and analyze it. 
+Functions to pull data from Geotab's Altitude API and process it. 
 
 # Setup
 1. Clone this repo.
